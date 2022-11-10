@@ -1,0 +1,63 @@
+
+.container {
+    margin-top: 25vh;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+body{ 
+    background-color: white;
+}
+h5 {
+    text-align: center;
+    
+}
+img{
+    display:block;
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 150px;
+    filter: brightness(75%);
+    
+}
+
+.btnr{
+    background-color: #ff4b63;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+ul{
+    
+    
+}
+.redesSociales{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+button {
+    size-adjust: 10px;
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
