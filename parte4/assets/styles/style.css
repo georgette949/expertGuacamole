@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -8,7 +9,7 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-.test {
+.phone {
     margin: 50px;
 	-webkit-animation: jello-horizontal 0.9s both;
 	        animation: jello-horizontal 0.9s both;
@@ -84,23 +85,18 @@
     margin: 30px;
 }
 
-.icons{
-   margin: 100px 300px;
-}
-
-.rocket{
-    margin-top: 50px;
-}
 
 .buttonA{
     margin: 30px 100px;
     transition: 0.5s;
     position: relative;
+    background-color: #ff4b63;
+    padding: 10px 25px;
    
 }
 
 .buttonA:hover{
-  background-color: rgb(203, 57, 57);
+  background-color: #ff4b63;
 }
 
 
@@ -113,7 +109,12 @@
   height: 100%;
   background: linear-gradient(90deg,transparent,#fff,transparent);
   transition: 0.5s;
-  overflow: hidden;
+  
+}
+
+.icons:hover{
+--fa-animation-duration: 2s;
+--fa-fade-opacity: 0.6;;
 }
 
 .buttonA:hover::before{
@@ -165,4 +166,6 @@ h2{
 margin: 200px 300px 100px 50px;
 
 }
+
+
 
