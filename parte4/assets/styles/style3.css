@@ -1,0 +1,61 @@
+:root{
+    color: #ff4b63;
+    color: #17c389;
+    color: #a073e9;
+    color: #ffaa10;
+    color: #46b0e5;
+}
+body{
+    background-color: #F7FAFD;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.linkColor{
+    color: #ffaa10;
+}
+.line{
+    border-bottom:solid 2px rgb(216, 214, 214);
+    width: 40px;
+    margin: 15px 
+}
+
+.containerTestimonial{
+    width: 250px;
+    height: 330px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerTestimonialFather{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.containerBrand{
+    width: 70vw;
+    height: 20vh;
+}
+.fa-beat:hover {
+    --fa-animation-duration: 2s;
+    --fa-fade-opacity: 0.6;
+    --fa-beat-scale: 0.1;
+}
+.ranquingUser{
+    background-color:#E8EFF6;
+    height: 40vh;
+    width: 100w;
+    margin-bottom: 10vh;
+}
+.smallLi{
+    font-size: 0.6rem;
+}
+.bigLi{
+    font-size: 3rem;
+    font-weight:700;
+}
+    
