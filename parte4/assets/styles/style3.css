@@ -5,6 +5,10 @@
     color: #ffaa10;
     color: #46b0e5;
 }
+.flicker-1 {
+	-webkit-animation: flicker-1 2s linear infinite both;
+	        animation: flicker-1 2s linear infinite both;
+}
 body{
     background-color: #F7FAFD;
 }
