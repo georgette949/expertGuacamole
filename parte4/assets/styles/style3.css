@@ -1,3 +1,4 @@
+
 :root{
     color: #ff4b63;
     color: #17c389;
@@ -25,41 +26,124 @@ ul{
     margin: 15px 
 }
 
-.containerTestimonial{
-    width: 250px;
-    height: 330px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body {
+  background-color: #f7fafd;
 }
-.containerTestimonialFather{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+p {
+  color: rgb(137, 137, 137);
 }
-.containerBrand{
-    width: 70vw;
-    height: 20vh;
+ul {
+  color: rgb(137, 137, 137);
+}
+.containerBanner3 {
+  margin-top: 20vh;
+  background-color: #eff4f8;
+  padding: 50px;
+}
+.containerTestimonial {
+  width: 250px;
+  height: 330px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerTestimonialFather {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerBrand {
+
+ 
+  padding: 50px;
+}
+.ulBanner3 {
+  list-style: none;
+  text-align: center;
+}
+.linkColor {
+  color: #ffaa10;
+}
+.line {
+  border-bottom: solid 2px rgb(216, 214, 214);
+  width: 40px;
+  margin: 15px;
 }
 .fa-beat:hover {
-    --fa-animation-duration: 2s;
-    --fa-fade-opacity: 0.6;
-    --fa-beat-scale: 0.1;
+  --fa-animation-duration: 2s;
+  --fa-fade-opacity: 0.6;
+  --fa-fade-scale: 0.2;
 }
-.ranquingUser{
-    background-color:#E8EFF6;
-    height: 40vh;
-    width: 100w;
-    margin-bottom: 10vh;
+.ranquingUser {
+  background-color: #e8eff6;
+  height: 40vh;
+  width: 100vw;
+  margin-bottom: 10vh;
 }
-.smallLi{
-    font-size: 0.6rem;
+.smallLi {
+  font-size: 0.6rem;
 }
-.bigLi{
-    font-size: 3rem;
-    font-weight:700;
+.bigLi {
+  font-size: 3rem;
+  font-weight: 700;
 }
-    
+/*estilos banner2*/
+
+.containerBanner2b {
+  background-color: #e8eff6;
+  padding: 80px;
+}
+.containerBanner2b {
+  margin-top: 10vh;
+}
+.colBanner2 {
+  width: 50vw;
+  height: fit-content;
+}
+.btnStyle {
+  background-color: #ff4b63;
+  padding: 10px 34px;
+  color: white;
+  font-weight: bold;
+}
+.btnStyle2b {
+  background-color: #a073e9;
+}
+.btnStyleb {
+  border: black solid 2px;
+  padding: 8px 24px;
+}
+.btnStyleb2 {
+  background-color: #ff4b63;
+  border: #ff4b63 solid 2px;
+  padding: 8px 30px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.iStyleGreen {
+  color: #17c389;
+}
+.imgBanner2 {
+  width: auto;
+  height: 500px;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  text-align: center;
+}
+
+.h2Banner2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 5vh;
+}
+.ulBanner2 {
+  list-style: square;
+}
+.ulBanner2b {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
