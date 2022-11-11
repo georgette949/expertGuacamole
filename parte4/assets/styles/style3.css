@@ -1,29 +1,28 @@
-
-:root{
-    color: #ff4b63;
-    color: #17c389;
-    color: #a073e9;
-    color: #ffaa10;
-    color: #46b0e5;
+:root {
+  color: #ff4b63;
+  color: #17c389;
+  color: #a073e9;
+  color: #ffaa10;
+  color: #46b0e5;
 }
 .flicker-1 {
-	-webkit-animation: flicker-1 2s linear infinite both;
-	        animation: flicker-1 2s linear infinite both;
+  -webkit-animation: flicker-1 2s linear infinite both;
+  animation: flicker-1 2s linear infinite both;
 }
-body{
-    background-color: #F7FAFD;
+body {
+  background-color: #f7fafd;
 }
-ul{
-    list-style: none;
-    text-align: center;
+ul {
+  list-style: none;
+  text-align: center;
 }
-.linkColor{
-    color: #ffaa10;
+.linkColor {
+  color: #ffaa10;
 }
-.line{
-    border-bottom:solid 2px rgb(216, 214, 214);
-    width: 40px;
-    margin: 15px 
+.line {
+  border-bottom: solid 2px rgb(216, 214, 214);
+  width: 40px;
+  margin: 15px;
 }
 
 body {
@@ -55,8 +54,6 @@ ul {
   align-items: center;
 }
 .containerBrand {
-
- 
   padding: 50px;
 }
 .ulBanner3 {
