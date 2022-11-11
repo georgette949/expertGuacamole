@@ -26,30 +26,27 @@ h2 {
     font: color black;
     
 }
-.phone{
+.phone {
     display:block;
     margin: 0 auto;
     width: 500px;
-    margin-bottom: 150px;
+    margin-bottom: 190px;
     filter: brightness(75%);
-    
 }
 
-.btnr{
-    background-color: #ff4b63;
-    margin-bottom: 100px;
-    border-radius: 200px;
-    
+.btnr {
+    background-color: #ff4b63;  
+    color: beige;
+    padding: 10px 45px;
 }
-
 
 .redesSociales{
     display:flex;
-    justify-content:space-between 50f, 50f, 50f, 50f;
+
+    align-content: flex-end;
+    padding-left:10px;
     
-    padding-left: 900px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+
 }
 
 
@@ -71,11 +68,20 @@ li{
 }
 .listas{
     display: flex;
-    justify-content:left;
-    align-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    justify-content:space-around;
+    align-content:center;
+    margin:30px;
+    border-top: 1px solid grey;
+    padding: 60px 0px 20px 0px;
 }
 #texto {
     color: black;
+}
+.logosRs{
+    background-color:grey;
+    color:white;
+    width: 50px;
+    height: auto;
+    padding: 15px;
+    margin-right: 10px;
 }
